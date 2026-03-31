@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.register-page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+.register-container {
+  width: 100%;
+  max-width: 420px;
+  padding: 2.5rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  text-align: center;
+}
+
+.register-container h2 {
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.sub-text {
+  color: #777;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.register-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.input-group {
+  position: relative;
+  width: 100%;
+}
+
+.register-container input {
+  width: 100%;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #e9ecef;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.register-container input:focus,
+.register-container input:not(:placeholder-shown) {
+  border-color: #6a67ce;
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgba(106, 103, 206, 0.1);
+}
+
+.input-group label {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  background: transparent;
+  padding: 0 4px;
+}
+
+.register-container input:focus~label,
+.register-container input:not(:placeholder-shown)~label {
+  top: 0;
+  font-size: 0.85rem;
+  color: #6a67ce;
+  background: #fff;
+  transform: translateY(-50%) scale(0.9);
+}
+
+.register-container button {
+  padding: 1rem;
+  margin-top: 1rem;
+  background: linear-gradient(to right, #6a67ce, #764ba2);
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.register-container button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px -10px rgba(118, 75, 162, 0.5);
+}
+
+.register-container button:active {
+  transform: translateY(-1px);
+}
+
+.alert {
+  margin-top: 1.5rem;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.basarili {
+  background-color: #d4edda;
+  color: #155724;
+  border-left: 5px solid #28a745;
+}
+
+.hata {
+  background-color: #f8d7da;
+  color: #721c24;
+  border-left: 5px solid #dc3545;
+}
+
+.auth-actions {
+  margin-top: 1.5rem;
+  border-top: 1px solid #eee;
+  padding-top: 1.5rem;
+}
+
+.auth-actions p {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0;
+}
+
+.link-text {
+  color: #6a67ce;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: color 0.2s;
+}
+
+.link-text:hover {
+  color: #4a47a3;
+  text-decoration: underline;
+}

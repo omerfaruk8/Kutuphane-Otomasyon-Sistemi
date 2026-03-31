@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.login-page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 2.5rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.sub-text {
+  color: #777;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.input-group {
+  position: relative;
+  width: 100%;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #e9ecef;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.input-group input:focus,
+.input-group input:not(:placeholder-shown) {
+  border-color: #6a67ce;
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgba(106, 103, 206, 0.1);
+}
+
+.input-group label {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  background: transparent;
+  padding: 0 4px;
+}
+
+.input-group input:focus~label,
+.input-group input:not(:placeholder-shown)~label {
+  top: 0;
+  font-size: 0.85rem;
+  color: #6a67ce;
+  background: #fff;
+  transform: translateY(-50%) scale(0.9);
+}
+
+
+.btn-primary {
+  padding: 1rem;
+  margin-top: 0.5rem;
+  background: linear-gradient(to right, #6a67ce, #764ba2);
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px -10px rgba(118, 75, 162, 0.5);
+}
+
+.alert.error {
+  padding: 0.8rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  background-color: #f8d7da;
+  color: #721c24;
+  border-left: 5px solid #dc3545;
+  text-align: left;
+}
+
+
+.auth-actions {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.auth-actions p {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0;
+}
+
+.link-text {
+  color: #6a67ce;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.link-text:hover {
+  color: #4a47a3;
+  text-decoration: underline;
+}
+
+.divider {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ccc;
+  font-size: 0.85rem;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #eee;
+}
+
+.divider span {
+  padding: 0 10px;
+}
+
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #ddd;
+  color: #777;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 100%;
+}
+
+.btn-secondary:hover {
+  background-color: #f8f9fa;
+  border-color: #bbb;
+  color: #333;
+}
