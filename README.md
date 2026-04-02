@@ -1,5 +1,5 @@
 Kütüphane Otomasyon Sistemi
-Hızlı Bakış: Projeyi yerel bilgisayarınıza kurup çalıştırmakla uğraşmadan, sistemin tüm işleyişini, teknik detaylarını ve ekran görüntülerini görmek için dizindeki Kütüphane Proje Sunum.pdf dosyasını inceleyebilirsiniz.
+Hızlı Bakış: Projeyi bilgisayarınıza kurup çalıştırmakla uğraşmadan, sistemin tüm işleyişini, teknik detaylarını ve ekran görüntülerini görmek için dizindeki Kütüphane Proje Sunum.pdf dosyasını inceleyebilirsiniz.
 
 Kurulum ve Çalıştırma Rehberi
 Projeyi kendi bilgisayarınızda ayağa kaldırmak için aşağıdaki adımları sırasıyla uygulamanız gerekmektedir.
